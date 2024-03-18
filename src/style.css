@@ -1,0 +1,30 @@
+body {
+  margin: 0;
+  padding: 0px;
+  align-content: center;
+  display:block;
+  background-image: url("../public/images/20d38e00-6634-11eb-9d1f-6a5232d0f84f.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  
+  
+}
+
+
+.navbar-nav li {
+  transition: background-color 0.3s;
+}
+
+.navbar-nav li:hover {
+  background-color: #555;
+}
+
+.navbar-nav li a {
+  transition: color 0.3s;
+}
+
+.navbar-nav li a:hover {
+  color: #fff;
+}
+
